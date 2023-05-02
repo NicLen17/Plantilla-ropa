@@ -1,10 +1,11 @@
 import './Company.css'
+import Logo from '../img/Logo.png';
 
 function Company() {
     return (
         <div className='company_container'>
             <div className='logo_container'>
-                <img className='company_logo' style={{ borderRadius: '50%' }} src="./src/assets/B.png" alt="" />
+                <img className='company_logo' style={{ borderRadius: '50%' }} src={Logo} alt="" />
             </div>
             <div className='about_container'>
                 <p>Benjamin&apos;s clothes</p>

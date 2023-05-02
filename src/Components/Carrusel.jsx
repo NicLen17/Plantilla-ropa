@@ -1,9 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './Carrusel.css'
 
 function Carrusel() {
     return (
-        <div>
+        <div className='carousel_conteiner'>
             <Carousel>
                 <Carousel.Item>
                     <img

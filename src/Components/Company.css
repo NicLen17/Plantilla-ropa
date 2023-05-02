@@ -1,0 +1,39 @@
+.company_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    place-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.company_logo {
+    padding: 10px;
+    border: 8px solid black;
+    width: 550px;
+    max-width: 100%;
+    margin: 15px 15px 15px 15px;
+    object-fit: cover;
+}
+
+.about_container {
+    width: 60%;
+    text-align: justify;
+}
+
+.about_container p{
+    font-size: 3.5rem;
+}
+
+@media screen and (max-width: 1450px) {
+    .about_container p{
+        text-align: center !important;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .company_logo {
+        margin: 10px 0pc 10px 0px;
+    }
+}
